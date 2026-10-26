@@ -1,0 +1,131 @@
+# ------------------------------------------------------------------
+# CHANGE THIS ONE LINE: put your GitHub username and repository name
+# e.g.  repo: michael-mk/mkgraphics-site
+# ------------------------------------------------------------------
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: site
+    label: My website
+    files:
+      - name: content
+        label: Website text, projects & reviews
+        file: content/site.json
+        format: json
+        fields:
+          - label: Top of page (hero)
+            name: hero
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small badge text, name: badge, widget: string }
+              - { label: Headline (first part), name: title, widget: string }
+              - { label: Headline (grey second part), name: title_accent, widget: string }
+              - { label: Intro paragraph, name: intro, widget: text }
+              - { label: Your portrait photo, name: portrait, widget: image }
+              - { label: Floating label 1, name: chip1, widget: string }
+              - { label: Floating label 2, name: chip2, widget: string }
+              - label: Numbers (stats)
+                name: stats
+                widget: list
+                max: 3
+                summary: "{{fields.number}}{{fields.suffix}} {{fields.label}}"
+                fields:
+                  - { label: Number, name: number, widget: number, value_type: int }
+                  - { label: Text after the number (e.g. + or + yrs), name: suffix, widget: string, required: false }
+                  - { label: Label, name: label, widget: string }
+
+          - label: Projects section
+            name: work
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small title above heading, name: eyebrow, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Short intro, name: lead, widget: string }
+              - label: Projects
+                name: projects
+                widget: list
+                summary: "{{fields.title}} · {{fields.client}}"
+                fields:
+                  - { label: Project name, name: title, widget: string }
+                  - { label: Client / brand, name: client, widget: string }
+                  - { label: Type of work, name: category, widget: string }
+                  - { label: Description, name: description, widget: text }
+                  - { label: Design image, name: image, widget: image }
+
+          - label: About section
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small title above heading, name: eyebrow, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: About text, name: text, widget: text }
+
+          - label: Experience section
+            name: experience
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small title above heading, name: eyebrow, widget: string }
+              - { label: Years of experience (number only), name: years, widget: number, value_type: int }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Short text, name: text, widget: text }
+              - label: Services
+                name: services
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Service name, name: title, widget: string }
+                  - { label: Description, name: text, widget: text }
+
+          - label: Clients & reviews section
+            name: clients
+            widget: object
+            collapsed: false
+            fields:
+              - { label: Small title above heading, name: eyebrow, widget: string }
+              - { label: Number of happy clients (number only), name: count, widget: number, value_type: int }
+              - { label: Text after the number, name: heading_suffix, widget: string }
+              - { label: Short intro above brand names, name: lead, widget: string }
+              - label: Brands I've worked with
+                name: brands
+                widget: list
+                field: { label: Brand name, name: name, widget: string }
+              - { label: Reviews heading, name: reviews_heading, widget: string }
+              - { label: Reviews intro line, name: reviews_lead, widget: string }
+              - label: Client reviews (screenshots)
+                name: reviews
+                widget: list
+                required: false
+                summary: "{{fields.client}}"
+                fields:
+                  - { label: Review screenshot, name: image, widget: image }
+                  - { label: Client name (optional, shown under the screenshot), name: client, widget: string, required: false }
+
+          - label: Contact section
+            name: contact
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Small title above heading, name: eyebrow, widget: string }
+              - { label: Heading, name: heading, widget: string }
+              - { label: Text, name: text, widget: string }
+              - { label: Email address, name: email, widget: string }
+              - { label: WhatsApp number (digits only, with country code), name: whatsapp, widget: string }
+              - { label: Instagram username (without @), name: instagram, widget: string }
+
+          - label: Footer
+            name: footer
+            widget: object
+            collapsed: true
+            fields:
+              - { label: Left text, name: left, widget: string }
+              - { label: Right text, name: right, widget: string }

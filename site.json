@@ -1,0 +1,160 @@
+{
+  "hero": {
+    "badge": "Available for projects · Graphic & Brand Designer",
+    "title": "Designing ideas",
+    "title_accent": "into visual experiences.",
+    "intro": "Hi, I’m Michael. I work with brands to create thoughtful designs that communicate their message, build recognition, and connect with their audience.",
+    "portrait": "/images/portrait.jpg",
+    "chip1": "Brand design",
+    "chip2": "Social media design",
+    "stats": [
+      {
+        "number": 30,
+        "suffix": "+",
+        "label": "Projects completed"
+      },
+      {
+        "number": 4,
+        "suffix": "+ yrs",
+        "label": "Experience"
+      },
+      {
+        "number": 20,
+        "suffix": "+",
+        "label": "Happy clients"
+      }
+    ]
+  },
+  "work": {
+    "eyebrow": "Selected work · 2026",
+    "heading": "Projects with impact",
+    "lead": "Tap any project to see the full design and what it was built to do.",
+    "projects": [
+      {
+        "title": "Scholarship Updates",
+        "client": "BeeGlobal Explore",
+        "category": "Social media design · Education & travel",
+        "description": "Scholarship promotion designed to make key updates and channel benefits easy to understand.",
+        "image": "/images/projects/project-01.jpg"
+      },
+      {
+        "title": "7 Days to Zanzibar",
+        "client": "BeeGlobal Explore",
+        "category": "Social media design · Travel promotion",
+        "description": "A destination-led travel flyer combining strong typography, a clear package list, and an aspirational holiday image.",
+        "image": "/images/projects/project-02.jpg"
+      },
+      {
+        "title": "Anniversary Promo",
+        "client": "BeeGlobal Explore",
+        "category": "Campaign design · Promotional offer",
+        "description": "A celebratory promotional visual built around a bold anniversary number, gift imagery, and a clear discount message.",
+        "image": "/images/projects/project-03.jpg"
+      },
+      {
+        "title": "Food Campaign",
+        "client": "Independent campaign concepts",
+        "category": "Advertising · Food visuals",
+        "description": "A set of food-focused promotional designs exploring expressive imagery, energetic composition, and bold headline treatments.",
+        "image": "/images/projects/project-04.jpg"
+      },
+      {
+        "title": "Weekend Marketplace",
+        "client": "Cydex Declutter",
+        "category": "Social media design · Community promotion",
+        "description": "A high-contrast campaign graphic designed to promote a community marketplace and encourage people to join.",
+        "image": "/images/projects/project-05.jpg"
+      },
+      {
+        "title": "September Travel Campaign",
+        "client": "BeeGlobal Explore",
+        "category": "Social media design · Seasonal campaign",
+        "description": "A travel-themed monthly campaign using oversized typography, destination imagery, and a strong visual focal point.",
+        "image": "/images/projects/project-06.jpg"
+      },
+      {
+        "title": "Slovakia Work Package",
+        "client": "BeeGlobal Explore",
+        "category": "Social media design · Work-abroad promotion",
+        "description": "A service-led layout that organises process duration and requirements into a clear promotional hierarchy.",
+        "image": "/images/projects/project-07.jpg"
+      },
+      {
+        "title": "The Inner Circle Webinar",
+        "client": "The Inner Circle",
+        "category": "Event promotion · Webinar design",
+        "description": "A dark, premium event flyer using gold accents, structured information, and a strong speaker-led composition.",
+        "image": "/images/projects/project-08.jpg"
+      },
+      {
+        "title": "We’re Back and Better",
+        "client": "BeeGlobal Explore",
+        "category": "Social media design · Brand announcement",
+        "description": "A relaunch announcement built around expressive imagery, clear messaging, and a confident brand tone.",
+        "image": "/images/projects/project-09.jpg"
+      },
+      {
+        "title": "Buy and Sell Quality Used Items",
+        "client": "Cydex Declutter",
+        "category": "Campaign design · Marketplace promotion",
+        "description": "A bold marketplace promotion balancing a strong headline, product imagery, and a clear call to action.",
+        "image": "/images/projects/project-10.jpg"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "Clear ideas, bold visuals.",
+    "text": "I’m Michael, a graphic and brand designer passionate about turning ideas into clear, engaging visual experiences. I work with brands to create thoughtful designs that communicate their message, build recognition, and connect with their audience."
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "years": 4,
+    "heading": "Years designing for brands",
+    "text": "Four-plus years of turning briefs into campaigns that get noticed and understood.",
+    "services": [
+      {
+        "title": "Social media design",
+        "text": "Scholarship, travel, and marketplace promotions for BeeGlobal Explore and Cydex Declutter."
+      },
+      {
+        "title": "Campaign design",
+        "text": "Promo, seasonal, and announcement campaigns with clear messaging and strong calls to action."
+      },
+      {
+        "title": "Event & webinar flyers",
+        "text": "Premium, structured event promotion for The Inner Circle."
+      },
+      {
+        "title": "Brand design",
+        "text": "Consistent visual direction that helps a brand build recognition."
+      }
+    ]
+  },
+  "clients": {
+    "eyebrow": "Satisfied clients",
+    "count": 20,
+    "heading_suffix": "+ happy clients",
+    "lead": "Brands I’ve designed for:",
+    "brands": [
+      "BeeGlobal Explore",
+      "Cydex Declutter",
+      "The Inner Circle"
+    ],
+    "reviews_heading": "What my clients say",
+    "reviews_lead": "Feedback from past clients. Tap a screenshot to view it full size.",
+    "reviews": []
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "heading": "Let’s create something meaningful.",
+    "text": "Available for graphic design and brand design opportunities.",
+    "email": "mkgraphics823@gmail.com",
+    "whatsapp": "2349162068899",
+    "instagram": "mkgraphics_design"
+  },
+  "footer": {
+    "left": "© 2026 MKgraphics",
+    "right": "Designing ideas into visual experiences."
+  }
+}
